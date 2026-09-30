@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "แดชบอร์ดรถบรรทุกอ้อย Real-Time",
+  "short_name": "รถอ้อย",
+  "description": "แดชบอร์ดรายงานรถบรรทุกใบอ้อยเข้าโรงงาน Real-Time",
+  "lang": "th",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#eaf6ff",
+  "theme_color": "#0b5a85",
+  "categories": ["business", "productivity"],
+  "launch_handler": { "client_mode": "navigate-existing" },
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
